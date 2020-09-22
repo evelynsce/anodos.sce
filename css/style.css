@@ -1,0 +1,148 @@
+/* line 1, ../../Desktop/anodos.sce/scss/style.scss */
+body {
+  background-image: url(../img/fondoWeb.jpg);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 0.5fr auto 0.9fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin: 2%;
+}
+
+/* line 14, ../../Desktop/anodos.sce/scss/style.scss */
+.fondoSeccion {
+  background-image: url(../img/FondoSection.jpg);
+  padding: 40px;
+  display: grid;
+}
+
+/* line 23, ../../Desktop/anodos.sce/scss/style.scss */
+.imgIndex {
+  align-self: center;
+  justify-self: center;
+}
+
+@keyframes logoAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+/* line 37, ../../Desktop/anodos.sce/scss/style.scss */
+header {
+  animation-name: logoAnim;
+  animation-iteration-count: initial;
+  animation-duration: 5s;
+}
+
+/* line 43, ../../Desktop/anodos.sce/scss/style.scss */
+.animacionImag {
+  transition: all 5s;
+}
+
+/* line 47, ../../Desktop/anodos.sce/scss/style.scss */
+.animacionImag:hover {
+  transform: scale(1.5, 1.5);
+}
+
+/* line 55, ../../Desktop/anodos.sce/scss/style.scss */
+.menu ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+/* line 59, ../../Desktop/anodos.sce/scss/style.scss */
+.menu ul ul {
+  display: none;
+}
+
+/* line 61, ../../Desktop/anodos.sce/scss/style.scss */
+.menu ul ul li {
+  width: 100%;
+}
+
+/* line 66, ../../Desktop/anodos.sce/scss/style.scss */
+.menu ul li:hover ul {
+  display: block;
+}
+
+/* line 71, ../../Desktop/anodos.sce/scss/style.scss */
+.menu li {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+/* line 77, ../../Desktop/anodos.sce/scss/style.scss */
+.menu a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 400;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+/* line 90, ../../Desktop/anodos.sce/scss/style.scss */
+li:hover {
+  background-color: black;
+}
+
+/* line 96, ../../Desktop/anodos.sce/scss/style.scss */
+h2 {
+  color: #021c4d;
+  font-family: 'Hepta Slab', serif;
+  font-size: 800;
+  margin: 30px 10px 30px 10px;
+}
+
+/* line 103, ../../Desktop/anodos.sce/scss/style.scss */
+p {
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+}
+
+/* line 111, ../../Desktop/anodos.sce/scss/style.scss */
+#Footer {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2%;
+  margin: 3% 0% 3% 0%;
+}
+
+/* line 1, ../../Desktop/anodos.sce/scss/secciones/_productos.scss */
+table {
+  margin: 50px 0px 50px 0px;
+}
+
+/* line 6, ../../Desktop/anodos.sce/scss/secciones/_productos.scss */
+table td {
+  border: 2px solid black;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 300;
+}
+
+/* line 1, ../../Desktop/anodos.sce/scss/secciones/_mantyqs.scss */
+.mantTexto {
+  text-align: right;
+}
+
+/* line 1, ../../Desktop/anodos.sce/scss/secciones/_principal.scss */
+.tituloIndex {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
