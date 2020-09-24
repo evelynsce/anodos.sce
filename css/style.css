@@ -53,6 +53,7 @@ header {
   padding: 0;
   list-style: none;
   display: flex;
+  position: absolute;
 }
 
 /* line 59, ../../Desktop/anodos.sce/scss/style.scss */
